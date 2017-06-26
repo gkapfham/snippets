@@ -90,7 +90,12 @@ snippet "tb(\d+x\d+)" "Customizable table" br
 endsnippet
 
 # Generic Tags
+
 snippet %
+{% ${1} %}${2}
+endsnippet
+
+snippet tag
 {% ${1} %}${2}
 endsnippet
 
@@ -155,7 +160,10 @@ snippet hl
 {% endhighlight %}
 endsnippet
 
-# vim:ft=snippets:
+# Symbols
 
+snippet mdash
+&mdash;
+endsnippet
 
 # vim:ft=snippets:
