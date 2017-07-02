@@ -158,10 +158,21 @@ snippet inc
 endsnippet
 
 # Jekyll-specific snippets
+
 snippet hl
 {% highlight ${1} %}
 	${VISUAL}${2}
 {% endhighlight %}
+endsnippet
+
+# Snippets specific to my web site
+
+snippet teach
+	[${1}]({{site.baseurl}}/teaching/)
+endsnippet
+
+snippet research
+	[${1}]({{site.baseurl}}/research/)
 endsnippet
 
 # Symbols
