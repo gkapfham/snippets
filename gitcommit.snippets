@@ -1,3 +1,23 @@
 snippet cm "Commit message" i
 ${1:type:feat,fix,docs,style,refactor,test,chore}: ${2:subject}
 endsnippet
+
+
+snippet pr "Pull request" b
+${1:description}
+
+### What is the current behavior?
+
+${2:current}
+
+### What is the new behavior if this PR is merged?
+
+${3:new}
+
+##### This PR has:
+
+- [${4:commit}] Commit messages that are correctly formatted
+- [${5:tests}] Tests for newly introduced code
+- [${6:docstrings}] Docstrings for newly introduced code
+
+endsnippet
