@@ -1,9 +1,11 @@
-snippet cm "Commit message" i
+# Structured commit message template used in, for instance, GatorGrader
+snippet cm "Structured Commit Message" i
 ${1:type:feat,fix,docs,style,refactor,test,chore}: ${2:subject}
 endsnippet
 
 
-snippet pr "Pull request" b
+# Structured PR template used in, for instance, GatorGrader
+snippet pr "Pull Request" b
 ${1:description}
 
 ### What is the current behavior?
@@ -26,4 +28,12 @@ This PR is a ${7:type:small change, feature, compatibility breaking update, non-
 
 @${8:username}
 
+endsnippet
+
+# GitHub format for pull requests
+# Merge pull request #<number> from <branch>
+# Expected by this tool:
+# https://github.com/Michionlion/pr-tag-release
+snippet mm "Merge PR message" i
+Merge pull request #${1:number} from ${2:branch}
 endsnippet
