@@ -1,6 +1,6 @@
 # Structured commit message template used in, for instance, GatorGrader
-snippet cm "Structured Commit Message" i
-${1:type:feat,fix,docs,style,refactor,test,chore}: ${2:subject}
+snippet commit "Structured Commit Message" i
+${1:type:feat,fix,docs,coms,style,refactor,test,chore}: ${2:subject}
 endsnippet
 
 
@@ -34,6 +34,6 @@ endsnippet
 # Merge pull request #<number> from <branch>
 # Expected by this tool:
 # https://github.com/Michionlion/pr-tag-release
-snippet mm "Merge PR message" i
+snippet merge "Merge PR message" i
 Merge pull request #${1:number} from ${2:branch}
 endsnippet
