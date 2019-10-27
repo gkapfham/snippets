@@ -9,3 +9,10 @@ endsnippet
 snippet dockagator "Link to the DockaGator web site"
 [DockaGator${1:${VISUAL}}](https://github.com/GatorEducator/dockagator)
 endsnippet
+
+snippet box "Box"
+`!p snip.rv = '┌' + '─' * (len(t[1]) + 2) + '┐'`
+│ $1 │
+`!p snip.rv = '└' + '─' * (len(t[1]) + 2) + '┘'`
+$0
+endsnippet
