@@ -4,7 +4,7 @@
 <img src="https://raw.githubusercontent.com/gkapfham/snippets/master/.github/snippets-logo.jpeg" alt="Snippets Logo"</img>
 <br>
 <b>
-Easy-to-use Snippets for UltiSnips and Vim
+Easy-to-use UltiSnips for Vim and Neovim
 </b>
 </p>
 
