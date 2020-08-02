@@ -14,7 +14,9 @@ projects of [Gregory M. Kapfhammer](https://www.gregorykapfhammer.com/). Please
 note that all the snippets in this repository are "hard-coded" to work for my
 development environment and projects. Even though they are heavily customized,
 my hope is that they will give examples of different facets of writing snippets
-in UltiSnips.
+in UltiSnips. For reference, some of the snippets are extracted from the blog
+post [How I'm Able to Take Notes in Mathematics Lectures Using LaTeX and
+Vim](https://castel.dev/post/lecture-notes-1/).
 
 ## Installation Instructions
 
